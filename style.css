@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(10, 10, 10);
+}
+
+.contenedor{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+h1, h2{
+    margin-bottom: 15px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+
+.cabecera{
+    color: rgb(252, 249, 249);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #be0600;
+    border-bottom: 6px solid #141313;
+    padding: 20px;
+}
+
+.cabecera-contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cabecera nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.cabecera nav a:hover {
+    text-decoration: underline;
+    color: #09ff00;
+}
+
+/* secciones */
+
+section{
+    padding: 10px 0;    
+}
+
+.niñes {
+     background-color: #63ffa4;
+}
+
+.juventud{
+    background-color:  #f0f34c ;
+}
+
+.adultez{
+    background-color:  #ffb742;
+}
+
+
+/* niñes */
+
+.niñez{
+    color: rgb(26, 25, 25);
+    font-size: 20px;
+    display: flex;
+    margin:0 50px 0 50px;
+    align-items: center;
+    gap: 30px
+}
+
+
+.foto-perfil{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    object-fit: cover;
+    border: 5px solid #030303;
+}
+
+
+/* juventud */
+
+.lista-iconos{
+    list-style: none;
+}
+
+.juventud ul{
+    font-size: 50px;
+    color: rgb(26, 25, 25);
+    font-size: 20px;
+}
+
+.lista-iconos li {
+    font-size: 10px;
+    padding: 10px;
+    border-bottom: 6px double #000000;
+    
+    color: rgb(26, 25, 25);
+    font-size: 20px;
+    display: flex;
+    margin:0 50px 0 50px;
+    align-items: center;
+    gap: 250px
+}
+
+.foto-perfil-juventud{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    object-fit: cover;
+    border: 5px solid #030303;
+    /* display: grid; */
+  
+}
+
+
+.juventud h2 {
+    text-align: center;
+}
+.juventud_2{
+   
+    justify-content: center;
+    display: flex;
+}
+
